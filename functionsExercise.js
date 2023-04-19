@@ -23,7 +23,7 @@ function muppetShow(a, b){
 };
 muppetShow('Muppet', 'Show');
 
-console.log(a);
+// console.log(a);
 
 // 4
 function kermit(){
@@ -31,7 +31,7 @@ function kermit(){
 };
 kermit();
 
-console.log(a);
+// console.log(a);
 
 // 5
 function muppetShowSeasons(seasons){
@@ -49,7 +49,7 @@ const manOrMuppet = function(){
 
 manOrMuppet();
 console.log(manOrMuppet);
-console.log(a);
+// console.log(a);
 
 // 7
 rainbowConnection = () => "Someday we'll find it. The Rainbow Connection. The lovers, the dreamers and me";
@@ -94,7 +94,7 @@ const charactersTwo = ['The Swedish Chef', 'Animal', 'Rowlf'];
 
 // 12c
 randomMuppet = (characters) => {
-    console.log(characters[Math.floor(Math.random()*characters.lenth)]);
+    console.log(characters[Math.floor(Math.random()*characters.length)]);
 };
 
 // OR
